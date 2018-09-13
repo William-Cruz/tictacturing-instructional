@@ -35,7 +35,7 @@ class TicTacToe extends Component {
             if (board[a] && board[a] === board[b] && board[a] === board[c]) {
                 alert('you won');
                 this.setState({winner: this.state.player})
-            }
+            }git push
         }
     }
 
